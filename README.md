@@ -1,2 +1,0 @@
-# DataSci
-ml for learning
