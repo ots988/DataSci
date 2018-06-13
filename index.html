@@ -1,0 +1,17 @@
+<title>gitsongtalk</title>
+<p>sssss</p>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'blog-comments', // 可选。默认为 location.href
+  owner: 'ots988',
+  repo: 'blog-comments',
+  oauth: {
+    client_id: 'b8edb13e8f69a9061bd4',
+    client_secret: 'a1dc62631b370ac789433962dec9ad0566f4d5db',
+  },
+})
+gitment.render('container')
+</script>
